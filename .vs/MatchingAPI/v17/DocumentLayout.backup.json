@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Monir_Backup\\MatchingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\dto\\userpreferencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\dto\\userpreferencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\data\\peopledeskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\data\\peopledeskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\controllers\\preferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\controllers\\preferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\services\\preference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\services\\preference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\iservices\\ipreferenceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\iservices\\ipreferenceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\services\\profileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\services\\profileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\scaffoldscript.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\scaffoldscript.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\iservices\\iprofileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\iservices\\iprofileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\dto\\createuserrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\dto\\createuserrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\dto\\createuserheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\dto\\createuserheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\helper\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\helper\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|d:\\monir_backup\\matchingapi\\matchingapi\\matchingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D04A3F6-11E4-4B48-9EC0-4C9C8C614A41}|MatchingAPI\\MatchingAPI.csproj|solutionrelative:matchingapi\\matchingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserPreferenceDTO.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\UserPreferenceDTO.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\DTO\\UserPreferenceDTO.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\UserPreferenceDTO.cs",
+              "RelativeToolTip": "MatchingAPI\\DTO\\UserPreferenceDTO.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAwwK0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T17:50:22.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PreferenceController.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Controllers\\PreferenceController.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\Controllers\\PreferenceController.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Controllers\\PreferenceController.cs",
+              "RelativeToolTip": "MatchingAPI\\Controllers\\PreferenceController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:00:18.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPreferenceInfo.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\IServices\\IPreferenceInfo.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\IServices\\IPreferenceInfo.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\IServices\\IPreferenceInfo.cs",
+              "RelativeToolTip": "MatchingAPI\\IServices\\IPreferenceInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T14:47:50.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Preference.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Services\\Preference.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\Services\\Preference.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Services\\Preference.cs",
+              "RelativeToolTip": "MatchingAPI\\Services\\Preference.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:24:01.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileInfo.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Services\\ProfileInfo.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\Services\\ProfileInfo.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Services\\ProfileInfo.cs",
+              "RelativeToolTip": "MatchingAPI\\Services\\ProfileInfo.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAWwI4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T06:07:44.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeopleDeskContext.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Data\\PeopleDeskContext.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\Data\\PeopleDeskContext.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Data\\PeopleDeskContext.cs",
+              "RelativeToolTip": "MatchingAPI\\Data\\PeopleDeskContext.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAzwFAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:14:54.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfileDTO.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\UserProfileDTO.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\DTO\\UserProfileDTO.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\UserProfileDTO.cs",
+              "RelativeToolTip": "MatchingAPI\\DTO\\UserProfileDTO.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAIAzwC4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T03:00:48.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\Program.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Program.cs",
+              "RelativeToolTip": "MatchingAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:27:30.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScaffoldScript.txt",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\ScaffoldScript.txt",
+              "RelativeDocumentMoniker": "MatchingAPI\\ScaffoldScript.txt",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\ScaffoldScript.txt",
+              "RelativeToolTip": "MatchingAPI\\ScaffoldScript.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-10T17:14:23.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProfileInfo.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\IServices\\IProfileInfo.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\IServices\\IProfileInfo.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\IServices\\IProfileInfo.cs",
+              "RelativeToolTip": "MatchingAPI\\IServices\\IProfileInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T06:20:25.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateUserRowDTO.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\CreateUserRowDTO.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\DTO\\CreateUserRowDTO.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\CreateUserRowDTO.cs",
+              "RelativeToolTip": "MatchingAPI\\DTO\\CreateUserRowDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:13:08.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateUserHeaderDTO.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\CreateUserHeaderDTO.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\DTO\\CreateUserHeaderDTO.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\DTO\\CreateUserHeaderDTO.cs",
+              "RelativeToolTip": "MatchingAPI\\DTO\\CreateUserHeaderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T17:07:08.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MatchingAPI\\appsettings.json",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\appsettings.json",
+              "RelativeToolTip": "MatchingAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T16:33:21.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Helper\\Connection.cs",
+              "RelativeDocumentMoniker": "MatchingAPI\\Helper\\Connection.cs",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\Helper\\Connection.cs",
+              "RelativeToolTip": "MatchingAPI\\Helper\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:02:17.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MatchingAPI.csproj",
+              "DocumentMoniker": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj",
+              "RelativeDocumentMoniker": "MatchingAPI\\MatchingAPI.csproj",
+              "ToolTip": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj",
+              "RelativeToolTip": "MatchingAPI\\MatchingAPI.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-07T06:06:03.747Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

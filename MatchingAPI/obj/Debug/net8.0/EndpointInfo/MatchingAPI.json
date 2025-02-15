@@ -1,0 +1,1337 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MatchingAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/GetLoginOTP": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "mailAddress",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetNotificationCount": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "parameters": [
+          {
+            "name": "employeeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "accountId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/CreateUserPreferenceInfo": {
+      "post": {
+        "tags": [
+          "Preference"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserPreferenceDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserPreferenceDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserPreferenceDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CreateUserProfileInfo": {
+      "post": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProfileDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProfileDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProfileDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/EditUserProfileInfo": {
+      "put": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProfileSummeryDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProfileSummeryDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProfileSummeryDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/EditUserProfileEducationInfo": {
+      "put": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserEducationRowDTO"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserEducationRowDTO"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserEducationRowDTO"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/EditUserProfileWorkInfo": {
+      "put": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserWorkInfoRowDTO"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserWorkInfoRowDTO"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserWorkInfoRowDTO"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/EditUserHobbiesNInterestInfo": {
+      "put": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserRowDTO"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserRowDTO"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/CreateUserRowDTO"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomizeHelper"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/GetSubcriptionPlanList": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetDivisionDDL": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "parameters": [
+          {
+            "name": "CountryID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetDistrictDDL": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "parameters": [
+          {
+            "name": "DivisionID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetThanaDDL": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "parameters": [
+          {
+            "name": "DistrictID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetRegionDDL": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetCommunityDDL": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetCountryDDL": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetDietPreferenceDDL": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetHightestQualification": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetHobbiesNInterest": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "parameters": [
+          {
+            "name": "CategoryName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetMaritalStatus": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetParentOccupation": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "parameters": [
+          {
+            "name": "strParentType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetResidencyStatus": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetSubCommunity": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "parameters": [
+          {
+            "name": "ReligiousID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetWorkDesignation": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/GetWorkIndustry": {
+      "get": {
+        "tags": [
+          "ProfileInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/GetAllUsers": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "accountId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateUserEducationRowDTO": {
+        "type": "object",
+        "properties": {
+          "userProfessionDetId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "qualification": {
+            "type": "string",
+            "nullable": true
+          },
+          "institute": {
+            "type": "string",
+            "nullable": true
+          },
+          "sesson": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserRowDTO": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "section": {
+            "type": "string",
+            "nullable": true
+          },
+          "hobbiesName": {
+            "type": "string",
+            "nullable": true
+          },
+          "active": {
+            "type": "boolean"
+          },
+          "lastActionDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserWorkInfoRowDTO": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "companyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "designationId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "designationName": {
+            "type": "string",
+            "nullable": true
+          },
+          "industryId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "industryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "income": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "currencyCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "isWork": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "fromDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "toDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "activeStatus": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomizeHelper": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "userCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "soId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "statuscode": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserPreferenceDTO": {
+        "type": "object",
+        "properties": {
+          "usererenceId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "unitId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "ageMin": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "ageMax": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "decHeightMin": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "decHeightMax": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "maritalStatusId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "religionId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "isCommunitPreperence": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "communityId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "subCommunityId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "countryId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "districtId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "thanaId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "residencyStatusId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "highestQualificationId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "workDesignationId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "workIndustryId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "decAnnualIncomeMin": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "decAnnualIncomeMax": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "strDiet": {
+            "type": "string",
+            "nullable": true
+          },
+          "strHobbiesAndInterests": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherOccupationId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "fatherOccupationId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "noOfSisters": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "noOfBrothers": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "dteCreatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dteUpdatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserProfileDTO": {
+        "required": [
+          "strName"
+        ],
+        "type": "object",
+        "properties": {
+          "strName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "dteDateOfBirth": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "strPresentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "strPermanentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "intReligionID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "strEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "strMobileNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "intCommunityID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intCountryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "strCountryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "strProfileFor": {
+            "type": "string",
+            "nullable": true
+          },
+          "strGender": {
+            "type": "string",
+            "nullable": true
+          },
+          "intDistrictID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intThanaID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intResidencyStatusID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intSubCommunityID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isPartnerCommunityPreference": {
+            "type": "boolean"
+          },
+          "intMaritalStatusID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "decHeight": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "strDiet": {
+            "type": "string",
+            "nullable": true
+          },
+          "intHighestQualificationID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "strCollege": {
+            "type": "string",
+            "nullable": true
+          },
+          "strHobbiesAndInterests": {
+            "type": "string",
+            "nullable": true
+          },
+          "decAnnualIncome": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "intWorkDesignationID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intWorkIndustryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intMotherOccupationID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intFatherDetailsID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intNoOfSisters": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intNoOfBrothers": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intUnitId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dteLastActionDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "isApprove": {
+            "type": "boolean"
+          },
+          "dteApproveDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "intApproveBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "serviceRows": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CreateUserRowDTO"
+            },
+            "nullable": true
+          },
+          "educationRows": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CreateUserEducationRowDTO"
+            },
+            "nullable": true
+          },
+          "workInfoRows": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CreateUserWorkInfoRowDTO"
+            },
+            "nullable": true
+          },
+          "isUpdateEducationInfo": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isUpdateWorkInfo": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isUpdateHobbiesInfo": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserProfileSummeryDTO": {
+        "required": [
+          "strName"
+        ],
+        "type": "object",
+        "properties": {
+          "strName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "dteDateOfBirth": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "strPresentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "strPermanentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "intReligionID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "strEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "strMobileNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "intCommunityID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intCountryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "strCountryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "strProfileFor": {
+            "type": "string",
+            "nullable": true
+          },
+          "strGender": {
+            "type": "string",
+            "nullable": true
+          },
+          "intDistrictID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intThanaID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intResidencyStatusID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intSubCommunityID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isPartnerCommunityPreference": {
+            "type": "boolean"
+          },
+          "intMaritalStatusID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "decHeight": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "strDiet": {
+            "type": "string",
+            "nullable": true
+          },
+          "intHighestQualificationID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "strCollege": {
+            "type": "string",
+            "nullable": true
+          },
+          "strHobbiesAndInterests": {
+            "type": "string",
+            "nullable": true
+          },
+          "decAnnualIncome": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "intWorkDesignationID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intWorkIndustryID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intMotherOccupationID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intFatherDetailsID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intNoOfSisters": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intNoOfBrothers": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intUnitId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dteLastActionDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "isApprove": {
+            "type": "boolean"
+          },
+          "dteApproveDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "intApproveBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isUpdateEducationInfo": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isUpdateWorkInfo": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isUpdateHobbiesInfo": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,407 @@
+[
+  {
+    "ContainingType": "MatchingAPI.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.PreferenceController",
+    "Method": "CreateUserPreferenceInfo",
+    "RelativePath": "CreateUserPreferenceInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "preference",
+        "Type": "MatchingAPI.DTO.UserPreferenceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MatchingAPI.Helper.CustomizeHelper",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "CreateUserProfileInfo",
+    "RelativePath": "CreateUserProfileInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "head",
+        "Type": "MatchingAPI.DTO.UserProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MatchingAPI.Helper.CustomizeHelper",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "EditUserHobbiesNInterestInfo",
+    "RelativePath": "EditUserHobbiesNInterestInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editHobbiesinfo",
+        "Type": "System.Collections.Generic.List\u00601[[MatchingAPI.DTO.CreateUserRowDTO, MatchingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MatchingAPI.Helper.CustomizeHelper",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "EditUserProfileEducationInfo",
+    "RelativePath": "EditUserProfileEducationInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editEducationinfo",
+        "Type": "System.Collections.Generic.List\u00601[[MatchingAPI.DTO.CreateUserEducationRowDTO, MatchingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MatchingAPI.Helper.CustomizeHelper",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "EditUserProfileInfo",
+    "RelativePath": "EditUserProfileInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editinfo",
+        "Type": "MatchingAPI.DTO.UserProfileSummeryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MatchingAPI.Helper.CustomizeHelper",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "EditUserProfileWorkInfo",
+    "RelativePath": "EditUserProfileWorkInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editWorkinfo",
+        "Type": "System.Collections.Generic.List\u00601[[MatchingAPI.DTO.CreateUserWorkInfoRowDTO, MatchingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MatchingAPI.Helper.CustomizeHelper",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetCommunityDDL",
+    "RelativePath": "GetCommunityDDL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetCountryDDL",
+    "RelativePath": "GetCountryDDL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetDietPreferenceDDL",
+    "RelativePath": "GetDietPreferenceDDL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetDistrictDDL",
+    "RelativePath": "GetDistrictDDL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DivisionID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetDivisionDDL",
+    "RelativePath": "GetDivisionDDL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetHightestQualification",
+    "RelativePath": "GetHightestQualification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetHobbiesNInterest",
+    "RelativePath": "GetHobbiesNInterest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.AuthController",
+    "Method": "GetLoginOTP",
+    "RelativePath": "GetLoginOTP",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mailAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetMaritalStatus",
+    "RelativePath": "GetMaritalStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.NotificationController",
+    "Method": "GetNotificationCount",
+    "RelativePath": "GetNotificationCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "accountId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetParentOccupation",
+    "RelativePath": "GetParentOccupation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strParentType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetRegionDDL",
+    "RelativePath": "GetRegionDDL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetResidencyStatus",
+    "RelativePath": "GetResidencyStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetSubCommunity",
+    "RelativePath": "GetSubCommunity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReligiousID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetSubcriptionPlanList",
+    "RelativePath": "GetSubcriptionPlanList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetThanaDDL",
+    "RelativePath": "GetThanaDDL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DistrictID",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetWorkDesignation",
+    "RelativePath": "GetWorkDesignation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchingAPI.Controllers.ProfileInfoController",
+    "Method": "GetWorkIndustry",
+    "RelativePath": "GetWorkIndustry",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

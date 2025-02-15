@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ibos\\Desktop\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj": {}
+    "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ibos\\Desktop\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj": {
+    "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ibos\\Desktop\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj",
+        "projectUniqueName": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj",
         "projectName": "MatchingAPI",
-        "projectPath": "C:\\Users\\ibos\\Desktop\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj",
-        "packagesPath": "C:\\Users\\ibos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ibos\\Desktop\\MatchingAPI\\MatchingAPI\\obj\\",
+        "projectPath": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\MatchingAPI.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\Monir_Backup\\MatchingAPI\\MatchingAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ibos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -61,9 +66,17 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
@@ -85,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

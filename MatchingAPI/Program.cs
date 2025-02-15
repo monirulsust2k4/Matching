@@ -1,7 +1,7 @@
 using MatchingAPI.Data;
 using MatchingAPI.IServices;
 using MatchingAPI.Services;
-using MatchingAPI.Services.SignalR;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +19,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IEmployeeService,EmployeeService>();
-builder.Services.AddScoped<INotificationService, NotificationService>();
+builder.Services.AddTransient<IProfileInfo, ProfileInfo>();
+builder.Services.AddTransient<IPreferenceInfo, Preference>();
 
 
 var app = builder.Build();
